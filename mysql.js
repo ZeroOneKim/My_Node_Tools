@@ -17,3 +17,17 @@ var connection = mysql.createConnection({
   });
   
   connection.end();
+
+/*
+메인 Node파일에서 연결시
+var mysql = require('mysql');
+var db = mysql.createConnection ({
+    host: 'localhost',
+    user:'root',   //User name
+    port: '',  //Port Number
+    password : '',  //Password
+    database : 'animals'   //databse name like this
+});
+db connect();
+
+*/
