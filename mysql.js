@@ -1,11 +1,11 @@
-var mysql = require('mysql');
+var mysql = require('mysql');     //mysql Node.js
 
 var connection = mysql.createConnection({
     host: 'localhost',
-    user:'root',
-    port: '3308',
-    password : 'indukit00',
-    database : 'animals'
+    user:'root',   //User name
+    port: '',  //Port Number
+    password : '',  //Password
+    database : 'animals'   //databse name like this
   });
   connection.connect();
 
